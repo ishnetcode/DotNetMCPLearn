@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "weather-mcp-server": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "c:/Code/NetMCP/Weather/QuickstartWeatherServer",
+        "--no-build"
+      ]
+    }
+  }
+}
